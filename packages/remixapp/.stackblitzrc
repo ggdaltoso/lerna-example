@@ -1,4 +1,4 @@
 {
-  "publisherStartCommand": "dev",
-  "startCommand": "build"
+  "publisherStartCommand": "yarn dev",
+  "startCommand": "yarn build"
 }
