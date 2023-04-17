@@ -1,3 +1,4 @@
 {
-  "startCommand": "dev"
+  "publisherStartCommand": "dev"
+  "startCommand": "build"
 }
