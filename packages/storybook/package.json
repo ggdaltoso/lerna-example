@@ -1,0 +1,11 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "storybook for lerna example components",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "ggdaltoso <ggdaltoso@gmail.com>",
+  "license": "MIT"
+}
