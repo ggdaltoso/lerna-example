@@ -1,4 +1,6 @@
-export function Footer({ styles, inter }) {
+import styles from './Footer.module.css';
+
+export function Footer() {
   return (
     <footer className={styles.grid}>
       <a
@@ -7,10 +9,10 @@ export function Footer({ styles, inter }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2 className={inter.className}>
+        <h2>
           This <span>-&gt;</span>
         </h2>
-        <p className={inter.className}>Just to</p>
+        <p>Just to</p>
       </a>
 
       <a
@@ -19,10 +21,10 @@ export function Footer({ styles, inter }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2 className={inter.className}>
+        <h2>
           Is <span>-&gt;</span>
         </h2>
-        <p className={inter.className}>demonstrate</p>
+        <p>demonstrate</p>
       </a>
 
       <a
@@ -31,10 +33,10 @@ export function Footer({ styles, inter }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2 className={inter.className}>
+        <h2>
           The footer <span>-&gt;</span>
         </h2>
-        <p className={inter.className}>a simple yarn workspace</p>
+        <p>a simple yarn workspace</p>
       </a>
 
       <a
@@ -43,10 +45,10 @@ export function Footer({ styles, inter }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2 className={inter.className}>
+        <h2>
           Package <span>-&gt;</span>
         </h2>
-        <p className={inter.className}>project</p>
+        <p>project</p>
       </a>
     </footer>
   );

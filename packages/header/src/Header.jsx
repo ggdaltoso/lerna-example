@@ -1,7 +1,12 @@
+import styles from './Header.module.css';
+
 export function Header() {
   return (
-    <header>
-      This is the header from <code>packages/header</code>
+    <header className={styles.header}>
+      <p>
+        This is the header from{' '}
+        <code className={styles.code}>packages/header</code>
+      </p>
     </header>
   );
 }
