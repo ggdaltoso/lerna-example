@@ -9,7 +9,7 @@ This repo contains three packages or projects:
 
 ```
 root # it uses yarn
- ├─ .stackblitzrc # startCommand: 'yarn workspace remixapp dev'
+ ├─ .stackblitzrc # startCommand: 'yarn workspace nextapp dev'
  └─ packages
       ├─ footer
       │   # no config
