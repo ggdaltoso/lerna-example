@@ -7,5 +7,9 @@
     "build-storybook": "storybook build"
   },
   "author": "ggdaltoso <ggdaltoso@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "footer": "*",
+    "header": "*"
+  }
 }
