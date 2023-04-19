@@ -21,7 +21,6 @@
     "storybook": "^7.0.6"
   },
   "scripts": {
-    "dev": "yarn workspace nextapp dev",
-    "dev:storybook": "yarn workspace storybook storybook"
+    "start": "yarn workspace nextapp dev"
   }
 }
